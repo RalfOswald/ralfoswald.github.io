@@ -1,2 +1,0 @@
-# ralfoswald.github.io
-webpage
