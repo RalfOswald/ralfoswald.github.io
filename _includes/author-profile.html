@@ -56,6 +56,12 @@
         </li>
       {% endif %}
 
+      {% if author.phone %}
+        <li itemprop="PhoneNumber" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-phone-square" aria-hidden="true"></i> <span itemprop="name" class="p-locality">{{ author.phone }}</span>
+        </li>
+      {% endif %}
+
       {% if author.keybase %}
         <li>
           <a href="https://keybase.io/{{ author.keybase }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
