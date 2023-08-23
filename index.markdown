@@ -8,6 +8,11 @@ titel: this is my title
 ---
 I love doing [research](/research/)
 
+<!-- <link rel="stylesheet" href="style_textchange.css">
+<script src="script_textchange.js"></script>
+
+<p><span>I am</span> <span id="changing-text"><span id="word-to-change">clever</span><span class="cursor">|</span></span></p> -->
+
 I look at [Google](https://google.com)
 
 I like baseball

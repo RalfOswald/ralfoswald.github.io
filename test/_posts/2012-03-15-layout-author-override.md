@@ -1,6 +1,6 @@
 ---
 title: "Layout: Author Override"
-author: Billy Rick
+author: Spongebob Squarepants
 excerpt: "A post to test author overrides using a data file."
 ---
 
@@ -13,14 +13,14 @@ To attribute an author to a post or page that is different from the site author 
 ```yaml
 # /_data/authors.yml
 
-Billy Rick:
-  name        : "Billy Rick"
+Spongebob Squarepants:
+  name        : "Spongebob Squarepants"
   bio         : "What do you want, jewels? I am a very extravagant man."
   avatar      : "/assets/images/bio-photo-2.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:billyrick@rick.com"
+      url: "mailto:spongebobsquarepants@futurebuddies.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://thewhip.com"
@@ -43,8 +43,8 @@ Cornelius Fiddlebone:
 
 **Step 2.** Assign one of the authors in `authors.yml` to a post or page you wish to override the `site.author` with. 
 
-Example: To assign `Billy Rick` as an author for a post the following YAML Front Matter would be applied:
+Example: To assign `Spongebob Squarepants` as an author for a post the following YAML Front Matter would be applied:
 
 ```yaml
-author: Billy Rick
+author: Spongebob Squarepants
 ```

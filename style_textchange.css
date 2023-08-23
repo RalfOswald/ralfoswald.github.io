@@ -1,0 +1,16 @@
+#changing-text {
+    display: inline-block;
+    white-space: nowrap;
+    position: relative;
+    color: #f42222; /* Change the color as desired */
+  }
+  
+  .cursor {
+    display: inline-block;
+    width: 0.9em;
+    margin-left: 2px;
+  }
+  
+  .hidden {
+    display: none;
+  }
